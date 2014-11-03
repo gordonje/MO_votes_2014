@@ -9,4 +9,4 @@ Dependencies
 *	[Python 2.7](https://www.python.org/ "Python 2.7")
 *	[Requests](http://docs.python-requests.org/en/latest/ "Requests")
 *	[BeautifulSoup 4](http://www.crummy.com/software/BeautifulSoup/ "BeautifulSoup4")
-*	[lxml parser](http://lxml.de/index.html#download "lxml parser")]
+*	[lxml parser](http://lxml.de/index.html#download "lxml parser")
