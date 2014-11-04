@@ -17,10 +17,15 @@ if path.exists('data/feed_data.xml'):
 county_fips = {}
 
 with open('data/counties_FIPS.csv', 'rU') as f:
-	reader = csv.DictReader(f, ['FIPS','FIPS_County_Name','Results_County_Name','Same'])
-
+	reader = csv.DictReader(f)
+	
 	for line in reader:
-		county_fips[line['Results_County_Name']] = line['FIPS'] 
+		county_fips[line['County_Name']] = {
+										  'fips': str(line['FIPS'])
+										, 'active_voters': int(line['Active_Voters'])
+										, 'inactive_voters': int(line['Inactive_Voters'])
+										, 'total_voters': int(line['Total_Voters'])
+										}
 
 # request and parse the xml data
 # Test AccessKey=004117454660
@@ -67,7 +72,7 @@ for type_race in soup.findAll('TypeRace'):
 			total_precincts = int(county.find('CountyResults').find('TotalPrecincts').text.strip())
 
 			# add counties to county results with fips as key
-			output['races'][type_name][race_name]['county_results'][str(county_fips[county_name])] = {
+			output['races'][type_name][race_name]['county_results'][county_fips[county_name]['fips']] = {
 																			  'county': county_name
 																			, 'reporting_precincts': reporting_precincts
 																			, 'total_precincts': total_precincts
@@ -97,7 +102,7 @@ for type_race in soup.findAll('TypeRace'):
 															, 'no_votes': 0
 														}
 
-				output['races'][type_name][race_name]['county_results'][county_fips[county_name]]['candidates'][candidate_id] = {
+				output['races'][type_name][race_name]['county_results'][county_fips[county_name]['fips']]['candidates'][candidate_id] = {
 																		    'yes_votes': yes_votes
 																		  , 'no_votes': no_votes
 																		}
@@ -116,22 +121,45 @@ for race_type in output['races'].keys():
 
 		for candidate_id in output['races'][race_type][race]['candidates'].keys():
 			output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['yes_votes']
-			output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['no_votes']
+			output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['no_votes']		
 
 		# if it's a race for which we're displaying results by county (e.g., the state auditor or the ballot initatives)...
 		if race_type in ('State of Missouri', 'Ballot Issues'):
-			# ...then for each county, if it's Jackson...
+
+			output['races'][race_type][race]['active_voters'] = 0
+
 			for fips in output['races'][race_type][race]['county_results'].keys():
+				# then for each county, we are going to add the voter numbers
+				county_name = output['races'][race_type][race]['county_results'][fips]['county']
+
+				output['races'][race_type][race]['county_results'][fips]['active_voters'] = county_fips[county_name]['active_voters']
+				output['races'][race_type][race]['county_results'][fips]['inactive_voters'] = county_fips[county_name]['inactive_voters']
+				output['races'][race_type][race]['county_results'][fips]['total_voters'] = county_fips[county_name]['total_voters']
+				# and add up the total number of active voters
+				output['races'][race_type][race]['active_voters'] += output['races'][race_type][race]['county_results'][fips]['active_voters']
+				# also, if it is Jackson County...
 				if output['races'][race_type][race]['county_results'][fips]['county'] == 'Jackson':
 					# ...then add KC's precincts reported and total precincts to Jackson County...
 					output['races'][race_type][race]['county_results'][fips]['reporting_precincts'] += output['races'][race_type][race]['county_results']['999']['reporting_precincts']
 					output['races'][race_type][race]['county_results'][fips]['total_precincts'] += output['races'][race_type][race]['county_results']['999']['total_precincts']
+					# ... and add the KC's active, inactive and total voters to Jackson County...
+					output['races'][race_type][race]['county_results'][fips]['active_voters'] += county_fips['Kansas City']['active_voters']
+					output['races'][race_type][race]['county_results'][fips]['inactive_voters'] += county_fips['Kansas City']['inactive_voters']
+					output['races'][race_type][race]['county_results'][fips]['inactive_voters'] += county_fips['Kansas City']['total_voters']
 					# ... and for each candidate, add the yes and no votes to the same candidate under jackson county.
 					for candidate_id in output['races'][race_type][race]['county_results'][fips]['candidates'].keys():
 						output['races'][race_type][race]['county_results'][fips]['candidates'][candidate_id]['yes_votes'] += output['races'][race_type][race]['county_results']['999']['candidates'][candidate_id]['yes_votes']
 						if output['races'][race_type][race]['county_results'][fips]['candidates'][candidate_id]['no_votes'] != None:
 							output['races'][race_type][race]['county_results'][fips]['candidates'][candidate_id]['no_votes'] += output['races'][race_type][race]['county_results']['999']['candidates'][candidate_id]['no_votes']
 
+
+			for candidate_id in output['races'][race_type][race]['candidates'].keys():
+				# add up the total number of votes casts in the race
+				output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['yes_votes']
+				output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['no_votes']
+				
+			# calculate the turnout in the race
+			output['races'][race_type][race]['pct_turnout'] = round( float(output['races'][race_type][race]['total_votes']) / float(output['races'][race_type][race]['active_voters']), 2 )
 
 # If there's a current json file, rename it and put it in /data/archive
 if path.exists('data/election_data.json'):
