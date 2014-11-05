@@ -115,14 +115,8 @@ for type_race in soup.findAll('TypeRace'):
 for race_type in output['races'].keys():
 
 	for race in output['races'][race_type].keys():
-
+		# calculcate a precent precincts reported
 		output['races'][race_type][race]['pct_precincts_reported'] = round( float(output['races'][race_type][race]['reporting_precincts']) / float(output['races'][race_type][race]['total_precincts']), 2 )
-		output['races'][race_type][race]['total_votes'] = 0
-
-		for candidate_id in output['races'][race_type][race]['candidates'].keys():
-			output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['yes_votes']
-			output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['no_votes']		
-
 		# if it's a race for which we're displaying results by county (e.g., the state auditor or the ballot initatives)...
 		if race_type in ('State of Missouri', 'Ballot Issues'):
 
@@ -152,7 +146,9 @@ for race_type in output['races'].keys():
 						if output['races'][race_type][race]['county_results'][fips]['candidates'][candidate_id]['no_votes'] != None:
 							output['races'][race_type][race]['county_results'][fips]['candidates'][candidate_id]['no_votes'] += output['races'][race_type][race]['county_results']['999']['candidates'][candidate_id]['no_votes']
 
-
+			# calculcate a total number of votes
+			output['races'][race_type][race]['total_votes'] = 0
+			
 			for candidate_id in output['races'][race_type][race]['candidates'].keys():
 				# add up the total number of votes casts in the race
 				output['races'][race_type][race]['total_votes'] += output['races'][race_type][race]['candidates'][candidate_id]['yes_votes']

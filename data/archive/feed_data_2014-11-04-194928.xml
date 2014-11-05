@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ElectionResults LastUpdated="11/4/2014 7:57:42 PM" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ElectionResults LastUpdated="11/4/2014 7:20:56 PM" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <ElectionInfo>
 <ElectionName>State of Missouri - General Election, November  04, 2014</ElectionName>
 <ElectionDate>11/04/14</ElectionDate>
@@ -316,7 +316,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -324,7 +324,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>934</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -333,7 +333,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>214</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -342,7 +342,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>46</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -1574,7 +1574,7 @@
 <Counties>
 <CountyName>Iron</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>10</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -1582,7 +1582,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>967</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -1591,7 +1591,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>228</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -1600,7 +1600,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>110</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -2322,7 +2322,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -2330,7 +2330,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>1468</YesVotes>
+<YesVotes>87</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2339,7 +2339,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>186</YesVotes>
+<YesVotes>8</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2348,7 +2348,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>59</YesVotes>
+<YesVotes>5</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -2356,7 +2356,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -2364,7 +2364,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>849</YesVotes>
+<YesVotes>69</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2373,7 +2373,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>191</YesVotes>
+<YesVotes>20</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2382,7 +2382,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>67</YesVotes>
+<YesVotes>9</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -2458,7 +2458,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -2466,7 +2466,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>821</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2475,7 +2475,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>264</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2484,7 +2484,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>140</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -2696,7 +2696,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -2704,7 +2704,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>1145</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2713,7 +2713,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>243</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -2722,7 +2722,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>97</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -3342,7 +3342,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>122</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -3350,7 +3350,7 @@
 <CandidateID>750074446</CandidateID>
 <LastName>Tom Schweich</LastName>
 <FirstName/>
-<YesVotes>291</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -3359,7 +3359,7 @@
 <CandidateID>750074445</CandidateID>
 <LastName>Sean O'Toole</LastName>
 <FirstName/>
-<YesVotes>99</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -3368,7 +3368,7 @@
 <CandidateID>750074444</CandidateID>
 <LastName>Rodney Farthing</LastName>
 <FirstName/>
-<YesVotes>23</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -4609,7 +4609,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>76</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -4617,7 +4617,7 @@
 <CandidateID>750074388</CandidateID>
 <LastName>Courtney Denton</LastName>
 <FirstName/>
-<YesVotes>153</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -4626,7 +4626,7 @@
 <CandidateID>750074387</CandidateID>
 <LastName>Blaine Luetkemeyer</LastName>
 <FirstName/>
-<YesVotes>264</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -4635,7 +4635,7 @@
 <CandidateID>750074389</CandidateID>
 <LastName>Steven Hedrick</LastName>
 <FirstName/>
-<YesVotes>31</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -4870,7 +4870,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>60</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -4878,7 +4878,7 @@
 <CandidateID>750074440</CandidateID>
 <LastName>Nate Irvin</LastName>
 <FirstName/>
-<YesVotes>650</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -4887,7 +4887,7 @@
 <CandidateID>750074442</CandidateID>
 <LastName>Vicky Hartzler</LastName>
 <FirstName/>
-<YesVotes>697</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -4896,7 +4896,7 @@
 <CandidateID>750074441</CandidateID>
 <LastName>Herschel L. Young</LastName>
 <FirstName/>
-<YesVotes>55</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -5386,7 +5386,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -5394,7 +5394,7 @@
 <CandidateID>750074440</CandidateID>
 <LastName>Nate Irvin</LastName>
 <FirstName/>
-<YesVotes>353</YesVotes>
+<YesVotes>16</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -5403,7 +5403,7 @@
 <CandidateID>750074442</CandidateID>
 <LastName>Vicky Hartzler</LastName>
 <FirstName/>
-<YesVotes>1388</YesVotes>
+<YesVotes>86</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -5412,7 +5412,7 @@
 <CandidateID>750074441</CandidateID>
 <LastName>Herschel L. Young</LastName>
 <FirstName/>
-<YesVotes>93</YesVotes>
+<YesVotes>5</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -5421,7 +5421,7 @@
 <CandidateID>750075916</CandidateID>
 <LastName>Gregory A Cowan</LastName>
 <FirstName/>
-<YesVotes>2</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -6790,7 +6790,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -6798,7 +6798,7 @@
 <CandidateID>750074421</CandidateID>
 <LastName>W. A. (Bill) Hedge</LastName>
 <FirstName/>
-<YesVotes>316</YesVotes>
+<YesVotes>33</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -6807,7 +6807,7 @@
 <CandidateID>750074420</CandidateID>
 <LastName>Sam Graves</LastName>
 <FirstName/>
-<YesVotes>883</YesVotes>
+<YesVotes>72</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -6816,7 +6816,7 @@
 <CandidateID>750074419</CandidateID>
 <LastName>Russ Monchil</LastName>
 <FirstName/>
-<YesVotes>34</YesVotes>
+<YesVotes>4</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -8243,7 +8243,7 @@
 <Counties>
 <CountyName>Iron</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>10</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -8251,7 +8251,7 @@
 <CandidateID>750074425</CandidateID>
 <LastName>Barbara Stocker</LastName>
 <FirstName/>
-<YesVotes>483</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8260,7 +8260,7 @@
 <CandidateID>750074422</CandidateID>
 <LastName>Jason Smith</LastName>
 <FirstName/>
-<YesVotes>809</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8269,7 +8269,7 @@
 <CandidateID>750074423</CandidateID>
 <LastName>Rick Vandeven</LastName>
 <FirstName/>
-<YesVotes>27</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8278,7 +8278,7 @@
 <CandidateID>750074424</CandidateID>
 <LastName>Doug Enyart</LastName>
 <FirstName/>
-<YesVotes>49</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8287,7 +8287,7 @@
 <CandidateID>750074604</CandidateID>
 <LastName>Terry Hampton</LastName>
 <FirstName/>
-<YesVotes>54</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -8451,7 +8451,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -8459,7 +8459,7 @@
 <CandidateID>750074425</CandidateID>
 <LastName>Barbara Stocker</LastName>
 <FirstName/>
-<YesVotes>546</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8468,7 +8468,7 @@
 <CandidateID>750074422</CandidateID>
 <LastName>Jason Smith</LastName>
 <FirstName/>
-<YesVotes>836</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8477,7 +8477,7 @@
 <CandidateID>750074423</CandidateID>
 <LastName>Rick Vandeven</LastName>
 <FirstName/>
-<YesVotes>19</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8486,7 +8486,7 @@
 <CandidateID>750074424</CandidateID>
 <LastName>Doug Enyart</LastName>
 <FirstName/>
-<YesVotes>29</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8495,7 +8495,7 @@
 <CandidateID>750074604</CandidateID>
 <LastName>Terry Hampton</LastName>
 <FirstName/>
-<YesVotes>42</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -8659,7 +8659,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -8667,7 +8667,7 @@
 <CandidateID>750074425</CandidateID>
 <LastName>Barbara Stocker</LastName>
 <FirstName/>
-<YesVotes>46</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8676,7 +8676,7 @@
 <CandidateID>750074422</CandidateID>
 <LastName>Jason Smith</LastName>
 <FirstName/>
-<YesVotes>207</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8685,7 +8685,7 @@
 <CandidateID>750074423</CandidateID>
 <LastName>Rick Vandeven</LastName>
 <FirstName/>
-<YesVotes>9</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8694,7 +8694,7 @@
 <CandidateID>750074424</CandidateID>
 <LastName>Doug Enyart</LastName>
 <FirstName/>
-<YesVotes>8</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -8703,7 +8703,7 @@
 <CandidateID>750074604</CandidateID>
 <LastName>Terry Hampton</LastName>
 <FirstName/>
-<YesVotes>12</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -9513,7 +9513,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -9521,7 +9521,7 @@
 <CandidateID>750074486</CandidateID>
 <LastName>Mollie Kristen Freebairn</LastName>
 <FirstName/>
-<YesVotes>351</YesVotes>
+<YesVotes>17</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -9530,7 +9530,7 @@
 <CandidateID>750074487</CandidateID>
 <LastName>Mike Kehoe</LastName>
 <FirstName/>
-<YesVotes>1485</YesVotes>
+<YesVotes>89</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -9685,7 +9685,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -9693,7 +9693,7 @@
 <CandidateID>750074340</CandidateID>
 <LastName>Ed Schieffer</LastName>
 <FirstName/>
-<YesVotes>357</YesVotes>
+<YesVotes>39</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -9702,7 +9702,7 @@
 <CandidateID>750074341</CandidateID>
 <LastName>Jeanie Riddle</LastName>
 <FirstName/>
-<YesVotes>892</YesVotes>
+<YesVotes>69</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -11151,7 +11151,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>4</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>5</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -11159,7 +11159,7 @@
 <CandidateID>750074491</CandidateID>
 <LastName>C. LeRoy Deichman</LastName>
 <FirstName/>
-<YesVotes>24</YesVotes>
+<YesVotes>2</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -11168,7 +11168,7 @@
 <CandidateID>750074492</CandidateID>
 <LastName>Lindell Shumake</LastName>
 <FirstName/>
-<YesVotes>77</YesVotes>
+<YesVotes>16</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -12502,7 +12502,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -12510,7 +12510,7 @@
 <CandidateID>750074505</CandidateID>
 <LastName>Lowell Jackson</LastName>
 <FirstName/>
-<YesVotes>326</YesVotes>
+<YesVotes>38</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -12519,7 +12519,7 @@
 <CandidateID>750074504</CandidateID>
 <LastName>Jim Hansen</LastName>
 <FirstName/>
-<YesVotes>825</YesVotes>
+<YesVotes>54</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -12739,7 +12739,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>17</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -12747,7 +12747,7 @@
 <CandidateID>750074351</CandidateID>
 <LastName>Thomas (Tom) Pauley</LastName>
 <FirstName/>
-<YesVotes>100</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -12756,7 +12756,7 @@
 <CandidateID>750074352</CandidateID>
 <LastName>Caleb Rowden</LastName>
 <FirstName/>
-<YesVotes>143</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -12792,7 +12792,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>18</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -12800,7 +12800,7 @@
 <CandidateID>750074353</CandidateID>
 <LastName>Kip Kendrick</LastName>
 <FirstName/>
-<YesVotes>96</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -12811,7 +12811,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>16</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -12819,7 +12819,7 @@
 <CandidateID>750074540</CandidateID>
 <LastName>Stephen Webber</LastName>
 <FirstName/>
-<YesVotes>331</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -12830,7 +12830,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>17</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -12838,7 +12838,7 @@
 <CandidateID>750074450</CandidateID>
 <LastName>John Wright</LastName>
 <FirstName/>
-<YesVotes>132</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -12847,7 +12847,7 @@
 <CandidateID>750074449</CandidateID>
 <LastName>Charles (Chuck) Basye</LastName>
 <FirstName/>
-<YesVotes>133</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -13101,7 +13101,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>14</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -13109,7 +13109,7 @@
 <CandidateID>750074451</CandidateID>
 <LastName>Caleb Jones</LastName>
 <FirstName/>
-<YesVotes>183</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -13149,7 +13149,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>6</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -13157,7 +13157,7 @@
 <CandidateID>750074451</CandidateID>
 <LastName>Caleb Jones</LastName>
 <FirstName/>
-<YesVotes>1066</YesVotes>
+<YesVotes>48</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -13691,7 +13691,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>8</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -13699,7 +13699,7 @@
 <CandidateID>750074320</CandidateID>
 <LastName>David Wood</LastName>
 <FirstName/>
-<YesVotes>542</YesVotes>
+<YesVotes>50</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -15230,7 +15230,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>22</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -15238,7 +15238,7 @@
 <CandidateID>750074552</CandidateID>
 <LastName>John D. Wiemann</LastName>
 <FirstName/>
-<YesVotes>283</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -15247,7 +15247,7 @@
 <CandidateID>750074553</CandidateID>
 <LastName>Dean (Draig)  Hodge</LastName>
 <FirstName/>
-<YesVotes>123</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -15687,7 +15687,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>7</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -15695,7 +15695,7 @@
 <CandidateID>750074475</CandidateID>
 <LastName>Kevin Engler</LastName>
 <FirstName/>
-<YesVotes>85</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -16973,7 +16973,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>14</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -16981,7 +16981,7 @@
 <CandidateID>750074518</CandidateID>
 <LastName>Charles Elrod</LastName>
 <FirstName/>
-<YesVotes>39</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -16990,7 +16990,7 @@
 <CandidateID>750074519</CandidateID>
 <LastName>Shelley (White) Keeney</LastName>
 <FirstName/>
-<YesVotes>148</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -17117,7 +17117,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -17125,7 +17125,7 @@
 <CandidateID>750074378</CandidateID>
 <LastName>Bill Burlison</LastName>
 <FirstName/>
-<YesVotes>672</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 <Party>
@@ -17134,7 +17134,7 @@
 <CandidateID>750074377</CandidateID>
 <LastName>Don Rone</LastName>
 <FirstName/>
-<YesVotes>841</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -17780,7 +17780,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>122</TotalPrecincts>
 <Party>
 <PartyName>Democratic</PartyName>
@@ -17788,7 +17788,7 @@
 <CandidateID>750074280</CandidateID>
 <LastName>Ted House</LastName>
 <FirstName/>
-<YesVotes>275</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -17799,7 +17799,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>58</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -17807,7 +17807,7 @@
 <CandidateID>750074498</CandidateID>
 <LastName>Jodie C. Asel</LastName>
 <FirstName/>
-<YesVotes>933</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -17999,7 +17999,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Republican</PartyName>
@@ -18007,7 +18007,7 @@
 <CandidateID>750074499</CandidateID>
 <LastName>Michael Gardner</LastName>
 <FirstName/>
-<YesVotes>231</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -18372,7 +18372,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -18380,13 +18380,13 @@
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>700</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-No Votes</LastName>
 <FirstName/>
-<YesVotes>272</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -19670,7 +19670,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -19678,13 +19678,13 @@
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>1036</YesVotes>
+<YesVotes>68</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-No Votes</LastName>
 <FirstName/>
-<YesVotes>538</YesVotes>
+<YesVotes>28</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -19692,7 +19692,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -19700,13 +19700,13 @@
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>705</YesVotes>
+<YesVotes>77</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-No Votes</LastName>
 <FirstName/>
-<YesVotes>386</YesVotes>
+<YesVotes>26</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -19758,7 +19758,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -19766,13 +19766,13 @@
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>841</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-No Votes</LastName>
 <FirstName/>
-<YesVotes>428</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -19912,7 +19912,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -19920,13 +19920,13 @@
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>169</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-No Votes</LastName>
 <FirstName/>
-<YesVotes>60</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -20330,7 +20330,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>122</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -20338,13 +20338,13 @@
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>229</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074134</CandidateID>
 <LastName>Laura Denvir Stith-No Votes</LastName>
 <FirstName/>
-<YesVotes>139</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -20927,7 +20927,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -20935,13 +20935,13 @@
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>724</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-No Votes</LastName>
 <FirstName/>
-<YesVotes>271</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -22225,7 +22225,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -22233,13 +22233,13 @@
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>1050</YesVotes>
+<YesVotes>66</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-No Votes</LastName>
 <FirstName/>
-<YesVotes>493</YesVotes>
+<YesVotes>24</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -22247,7 +22247,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -22255,13 +22255,13 @@
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>709</YesVotes>
+<YesVotes>70</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-No Votes</LastName>
 <FirstName/>
-<YesVotes>367</YesVotes>
+<YesVotes>26</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -22313,7 +22313,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -22321,13 +22321,13 @@
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>834</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-No Votes</LastName>
 <FirstName/>
-<YesVotes>418</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -22467,7 +22467,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -22475,13 +22475,13 @@
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>164</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-No Votes</LastName>
 <FirstName/>
-<YesVotes>61</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -22885,7 +22885,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>122</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -22893,13 +22893,13 @@
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>221</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074964</CandidateID>
 <LastName>Paul Campbell Wilson-No Votes</LastName>
 <FirstName/>
-<YesVotes>144</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -23529,7 +23529,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -23537,13 +23537,13 @@
 <CandidateID>750074136</CandidateID>
 <LastName>Angela Turner Quigless-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>713</YesVotes>
+<YesVotes>71</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074136</CandidateID>
 <LastName>Angela Turner Quigless-No Votes</LastName>
 <FirstName/>
-<YesVotes>363</YesVotes>
+<YesVotes>26</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -23595,7 +23595,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -23603,13 +23603,13 @@
 <CandidateID>750074136</CandidateID>
 <LastName>Angela Turner Quigless-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>160</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074136</CandidateID>
 <LastName>Angela Turner Quigless-No Votes</LastName>
 <FirstName/>
-<YesVotes>64</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -23705,7 +23705,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>122</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -23713,13 +23713,13 @@
 <CandidateID>750074136</CandidateID>
 <LastName>Angela Turner Quigless-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>228</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074136</CandidateID>
 <LastName>Angela Turner Quigless-No Votes</LastName>
 <FirstName/>
-<YesVotes>138</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -24104,7 +24104,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -24112,13 +24112,13 @@
 <CandidateID>750074958</CandidateID>
 <LastName>Lisa S. Van Amburg-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>701</YesVotes>
+<YesVotes>67</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074958</CandidateID>
 <LastName>Lisa S. Van Amburg-No Votes</LastName>
 <FirstName/>
-<YesVotes>366</YesVotes>
+<YesVotes>30</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -24170,7 +24170,7 @@
 <Counties>
 <CountyName>Perry</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -24178,13 +24178,13 @@
 <CandidateID>750074958</CandidateID>
 <LastName>Lisa S. Van Amburg-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>159</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074958</CandidateID>
 <LastName>Lisa S. Van Amburg-No Votes</LastName>
 <FirstName/>
-<YesVotes>63</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -24280,7 +24280,7 @@
 <Counties>
 <CountyName>St. Charles</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>122</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -24288,13 +24288,13 @@
 <CandidateID>750074958</CandidateID>
 <LastName>Lisa S. Van Amburg-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>229</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074958</CandidateID>
 <LastName>Lisa S. Van Amburg-No Votes</LastName>
 <FirstName/>
-<YesVotes>134</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -24968,7 +24968,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -24976,13 +24976,13 @@
 <CandidateID>750074138</CandidateID>
 <LastName>Mary W. Sheffield-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>858</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074138</CandidateID>
 <LastName>Mary W. Sheffield-No Votes</LastName>
 <FirstName/>
-<YesVotes>398</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -25939,7 +25939,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>10</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -25947,13 +25947,13 @@
 <CandidateID>750074960</CandidateID>
 <LastName>Nancy Steffen Rahmeyer-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>845</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074960</CandidateID>
 <LastName>Nancy Steffen Rahmeyer-No Votes</LastName>
 <FirstName/>
-<YesVotes>410</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -26495,7 +26495,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>58</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -26503,13 +26503,13 @@
 <CandidateID>750074140</CandidateID>
 <LastName>Lisa White Hardwick-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>728</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074140</CandidateID>
 <LastName>Lisa White Hardwick-No Votes</LastName>
 <FirstName/>
-<YesVotes>267</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -27111,7 +27111,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -27119,13 +27119,13 @@
 <CandidateID>750074140</CandidateID>
 <LastName>Lisa White Hardwick-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>1048</YesVotes>
+<YesVotes>67</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074140</CandidateID>
 <LastName>Lisa White Hardwick-No Votes</LastName>
 <FirstName/>
-<YesVotes>505</YesVotes>
+<YesVotes>27</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -27510,7 +27510,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>58</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -27518,13 +27518,13 @@
 <CandidateID>750074962</CandidateID>
 <LastName>Anthony Rex Gabbert-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>710</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074962</CandidateID>
 <LastName>Anthony Rex Gabbert-No Votes</LastName>
 <FirstName/>
-<YesVotes>266</YesVotes>
+<YesVotes>0</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -28126,7 +28126,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Nonpartisan</PartyName>
@@ -28134,13 +28134,13 @@
 <CandidateID>750074962</CandidateID>
 <LastName>Anthony Rex Gabbert-Yes Votes</LastName>
 <FirstName/>
-<YesVotes>1041</YesVotes>
+<YesVotes>66</YesVotes>
 </Candidate>
 <Candidate>
 <CandidateID>750074962</CandidateID>
 <LastName>Anthony Rex Gabbert-No Votes</LastName>
 <FirstName/>
-<YesVotes>508</YesVotes>
+<YesVotes>26</YesVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -29844,7 +29844,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -29852,8 +29852,8 @@
 <CandidateID>750006198</CandidateID>
 <LastName>Constitutional Amendment 2 </LastName>
 <FirstName/>
-<YesVotes>923</YesVotes>
-<NoVotes>459</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -30286,7 +30286,7 @@
 <Counties>
 <CountyName>Franklin</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>51</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -30294,8 +30294,8 @@
 <CandidateID>750006198</CandidateID>
 <LastName>Constitutional Amendment 2 </LastName>
 <FirstName/>
-<YesVotes>719</YesVotes>
-<NoVotes>238</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -30847,7 +30847,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -30855,8 +30855,8 @@
 <CandidateID>750006198</CandidateID>
 <LastName>Constitutional Amendment 2 </LastName>
 <FirstName/>
-<YesVotes>1169</YesVotes>
-<NoVotes>652</NoVotes>
+<YesVotes>75</YesVotes>
+<NoVotes>27</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -30864,7 +30864,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -30872,8 +30872,8 @@
 <CandidateID>750006198</CandidateID>
 <LastName>Constitutional Amendment 2 </LastName>
 <FirstName/>
-<YesVotes>827</YesVotes>
-<NoVotes>415</NoVotes>
+<YesVotes>81</YesVotes>
+<NoVotes>25</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -30915,7 +30915,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -30923,8 +30923,8 @@
 <CandidateID>750006198</CandidateID>
 <LastName>Constitutional Amendment 2 </LastName>
 <FirstName/>
-<YesVotes>663</YesVotes>
-<NoVotes>220</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -31819,7 +31819,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -31827,8 +31827,8 @@
 <CandidateID>750006199</CandidateID>
 <LastName>Constitutional Amendment 3 </LastName>
 <FirstName/>
-<YesVotes>348</YesVotes>
-<NoVotes>1041</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -32261,7 +32261,7 @@
 <Counties>
 <CountyName>Franklin</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>51</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -32269,8 +32269,8 @@
 <CandidateID>750006199</CandidateID>
 <LastName>Constitutional Amendment 3 </LastName>
 <FirstName/>
-<YesVotes>334</YesVotes>
-<NoVotes>646</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -32822,7 +32822,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -32830,8 +32830,8 @@
 <CandidateID>750006199</CandidateID>
 <LastName>Constitutional Amendment 3 </LastName>
 <FirstName/>
-<YesVotes>349</YesVotes>
-<NoVotes>1503</NoVotes>
+<YesVotes>30</YesVotes>
+<NoVotes>73</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -32839,7 +32839,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -32847,8 +32847,8 @@
 <CandidateID>750006199</CandidateID>
 <LastName>Constitutional Amendment 3 </LastName>
 <FirstName/>
-<YesVotes>249</YesVotes>
-<NoVotes>1026</NoVotes>
+<YesVotes>34</YesVotes>
+<NoVotes>74</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -32890,7 +32890,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -32898,8 +32898,8 @@
 <CandidateID>750006199</CandidateID>
 <LastName>Constitutional Amendment 3 </LastName>
 <FirstName/>
-<YesVotes>248</YesVotes>
-<NoVotes>665</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -33794,7 +33794,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -33802,8 +33802,8 @@
 <CandidateID>750006200</CandidateID>
 <LastName>Constitutional Amendment 6</LastName>
 <FirstName/>
-<YesVotes>426</YesVotes>
-<NoVotes>945</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -34236,7 +34236,7 @@
 <Counties>
 <CountyName>Franklin</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>51</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -34244,8 +34244,8 @@
 <CandidateID>750006200</CandidateID>
 <LastName>Constitutional Amendment 6</LastName>
 <FirstName/>
-<YesVotes>259</YesVotes>
-<NoVotes>696</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -34797,7 +34797,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -34805,8 +34805,8 @@
 <CandidateID>750006200</CandidateID>
 <LastName>Constitutional Amendment 6</LastName>
 <FirstName/>
-<YesVotes>455</YesVotes>
-<NoVotes>1338</NoVotes>
+<YesVotes>36</YesVotes>
+<NoVotes>66</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -34814,7 +34814,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -34822,8 +34822,8 @@
 <CandidateID>750006200</CandidateID>
 <LastName>Constitutional Amendment 6</LastName>
 <FirstName/>
-<YesVotes>272</YesVotes>
-<NoVotes>953</NoVotes>
+<YesVotes>29</YesVotes>
+<NoVotes>74</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -34865,7 +34865,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -34873,8 +34873,8 @@
 <CandidateID>750006200</CandidateID>
 <LastName>Constitutional Amendment 6</LastName>
 <FirstName/>
-<YesVotes>294</YesVotes>
-<NoVotes>590</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -35769,7 +35769,7 @@
 <Counties>
 <CountyName>Boone</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>59</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -35777,8 +35777,8 @@
 <CandidateID>750006201</CandidateID>
 <LastName>Constitutional Amendment 10</LastName>
 <FirstName/>
-<YesVotes>587</YesVotes>
-<NoVotes>775</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -36211,7 +36211,7 @@
 <Counties>
 <CountyName>Franklin</CountyName>
 <CountyResults>
-<ReportingPrecincts>1</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>51</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -36219,8 +36219,8 @@
 <CandidateID>750006201</CandidateID>
 <LastName>Constitutional Amendment 10</LastName>
 <FirstName/>
-<YesVotes>559</YesVotes>
-<NoVotes>400</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -36772,7 +36772,7 @@
 <Counties>
 <CountyName>Moniteau</CountyName>
 <CountyResults>
-<ReportingPrecincts>6</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>11</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -36780,8 +36780,8 @@
 <CandidateID>750006201</CandidateID>
 <LastName>Constitutional Amendment 10</LastName>
 <FirstName/>
-<YesVotes>976</YesVotes>
-<NoVotes>817</NoVotes>
+<YesVotes>60</YesVotes>
+<NoVotes>42</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -36789,7 +36789,7 @@
 <Counties>
 <CountyName>Monroe</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>1</ReportingPrecincts>
 <TotalPrecincts>9</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -36797,8 +36797,8 @@
 <CandidateID>750006201</CandidateID>
 <LastName>Constitutional Amendment 10</LastName>
 <FirstName/>
-<YesVotes>719</YesVotes>
-<NoVotes>517</NoVotes>
+<YesVotes>68</YesVotes>
+<NoVotes>33</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
@@ -36840,7 +36840,7 @@
 <Counties>
 <CountyName>New Madrid</CountyName>
 <CountyResults>
-<ReportingPrecincts>5</ReportingPrecincts>
+<ReportingPrecincts>0</ReportingPrecincts>
 <TotalPrecincts>19</TotalPrecincts>
 <Party>
 <PartyName>Ballot Issues</PartyName>
@@ -36848,8 +36848,8 @@
 <CandidateID>750006201</CandidateID>
 <LastName>Constitutional Amendment 10</LastName>
 <FirstName/>
-<YesVotes>523</YesVotes>
-<NoVotes>371</NoVotes>
+<YesVotes>0</YesVotes>
+<NoVotes>0</NoVotes>
 </Candidate>
 </Party>
 </CountyResults>
