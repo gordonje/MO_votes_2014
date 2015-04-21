@@ -3,7 +3,6 @@ import shutil
 from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
-import json
 import csv
 import json
 
