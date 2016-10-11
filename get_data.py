@@ -20,16 +20,21 @@ with open('data/counties_FIPS.csv', 'rU') as f:
 	
 	for line in reader:
 		county_fips[line['County_Name']] = {
-										  'fips': str(line['FIPS'])
-										, 'active_voters': int(line['Active_Voters'])
-										, 'inactive_voters': int(line['Inactive_Voters'])
-										, 'total_voters': int(line['Total_Voters'])
-										}
+			'fips': str(line['FIPS']),
+			'active_voters': int(line['Active_Voters']),
+			'inactive_voters': int(line['Inactive_Voters']),
+			'total_voters': int(line['Total_Voters'])
+		}
 
 # request and parse the xml data
 # Test AccessKey=004117454660
 # Election Day AccessKey=482021566655 (DON'T FORGET TO CHANGE THIS!!!!!)
-response = requests.get('http://enrarchives.sos.mo.gov/APFeed/Apfeed.asmx/GetElectionResults?AccessKey=482021566655')
+response = requests.get(
+	# Actual endpoint
+	# 'http://enrarchives.sos.mo.gov/APFeed/Apfeed.asmx/GetElectionResults?AccessKey=482021566655'
+	# for testing purposes
+	'https://raw.githubusercontent.com/gordonje/MO_votes_2014/master/data/feed_data.xml'
+)
 
 soup = BeautifulSoup(response.content, 'xml')
 
@@ -39,8 +44,8 @@ with open('data/feed_data.xml', 'w') as f:
 
 # set a variable to store the results as we go
 output = {
-	    'last_updated': soup.find('ElectionResults')['LastUpdated']
-	  , 'races': {}
+    'last_updated': soup.find('ElectionResults')['LastUpdated'],
+    'races': {}
 }
 
 for type_race in soup.findAll('TypeRace'):
@@ -57,11 +62,11 @@ for type_race in soup.findAll('TypeRace'):
 			race_name = race.find('RaceTitle').text.strip()
 
 		output['races'][type_name][race_name] = {
-									  'reporting_precincts': 0
-									, 'total_precincts': 0
-									, 'candidates': {}
-									, 'county_results': {}
-								}
+			'reporting_precincts': 0,
+			'total_precincts': 0,
+			'candidates': {},
+			'county_results': {},
+		}
 
 		for county in race.findAll('Counties'):
 
@@ -72,11 +77,11 @@ for type_race in soup.findAll('TypeRace'):
 
 			# add counties to county results with fips as key
 			output['races'][type_name][race_name]['county_results'][county_fips[county_name]['fips']] = {
-																			  'county': county_name
-																			, 'reporting_precincts': reporting_precincts
-																			, 'total_precincts': total_precincts
-																			, 'candidates': {}
-																		}
+				'county': county_name,
+				'reporting_precincts': reporting_precincts,
+				'total_precincts': total_precincts,
+				'candidates': {}
+			}
 						
 			output['races'][type_name][race_name]['reporting_precincts'] += reporting_precincts
 			output['races'][type_name][race_name]['total_precincts'] += total_precincts
@@ -95,16 +100,16 @@ for type_race in soup.findAll('TypeRace'):
 				# adding the candidate info to the race node
 				if candidate_id not in output['races'][type_name][race_name]['candidates'].keys():
 					output['races'][type_name][race_name]['candidates'][candidate_id] = {
-															  'candidate_name': candidate.find('LastName').text.strip()
-															, 'party': candidate.findParent('Party').find('PartyName').text.strip()
-															, 'yes_votes': 0
-															, 'no_votes': 0
-														}
+						'candidate_name': candidate.find('LastName').text.strip(),
+						'party': candidate.findParent('Party').find('PartyName').text.strip(),
+						'yes_votes': 0,
+						'no_votes': 0,
+					}
 
 				output['races'][type_name][race_name]['county_results'][county_fips[county_name]['fips']]['candidates'][candidate_id] = {
-																		    'yes_votes': yes_votes
-																		  , 'no_votes': no_votes
-																		}
+					'yes_votes': yes_votes,
+					'no_votes': no_votes,
+				}
 
 				output['races'][type_name][race_name]['candidates'][candidate_id]['yes_votes'] += yes_votes
 				if no_votes != None:
@@ -161,7 +166,9 @@ if path.exists('data/election_data.json'):
 	time_str = str(start_time.date()) + "-" + str(start_time.hour) + str(start_time.minute) + str(start_time.second)
 	shutil.copy2('data/election_data.json', 'data/archive/election_data_' + time_str + '.json')
 
+print output
+
 # output the json file
-json_file = open('data/election_data.json', 'w')
-json_file.write(json.dumps(output))
-json_file.close()
+# json_file = open('data/election_data.json', 'w')
+# json_file.write(json.dumps(output))
+# json_file.close()
